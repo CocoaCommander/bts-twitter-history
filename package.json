@@ -1,0 +1,22 @@
+{
+  "name": "bts-twitter-history",
+  "version": "1.0.0",
+  "description": "Website to look at history of BTS's social media presence on twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CocoaCommander/bts-twitter-history.git"
+  },
+  "keywords": [
+    "BTS"
+  ],
+  "author": "Ryan Lee, Matthew Balgan, Brian Ho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CocoaCommander/bts-twitter-history/issues"
+  },
+  "homepage": "https://github.com/CocoaCommander/bts-twitter-history#readme"
+}
