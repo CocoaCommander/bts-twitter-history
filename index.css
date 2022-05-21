@@ -1,0 +1,55 @@
+body {
+  background-image: url('imgs/background-pic.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+header, #intro, #cloud-map, #trends-graph, #top-tweets {
+  display: flex;
+  align-items: center;
+  flex-direction: column
+}
+
+header {
+  height: 100vh;
+  justify-content: center;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 120px;
+  margin-bottom: 0px;
+  color: aliceblue;
+  text-shadow: #d751e8 20px 15px 20px;
+  text-align: center;
+}
+
+#cloud-map, #trends-graph, #top-tweets {
+  background-color: #b6e5f0;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 30px;
+  border: 15px solid #89aeee;
+  border-radius: 25px;
+}
+
+#cloud-map h2, #trends-graph h2, #top-tweets h2 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#cloud-queries, #trend-queries, #tweet-queries {
+  background-image: url("imgs/background-pic.jpg");
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column
+}
+
+img {
+  height: 300px;
+  width: 500px;
+}
