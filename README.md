@@ -5,8 +5,8 @@
 3. Figure out visualization (Brian)
     - Ideas:
         - Word Cloud
-        Waggle Link for WordCloud:
-        https://www.kaggle.com/brianthienho/bts-twitter-api-visuals
+        <p>Waggle Link for WordCloud:
+         https://www.kaggle.com/brianthienho/bts-twitter-api-visuals </p>
         - Google Trends-like line graph (only for that month)
         Need More Information As of Now
         - Top 10 tweets sorted by num retweets of a given month
