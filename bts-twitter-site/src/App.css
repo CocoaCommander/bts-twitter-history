@@ -53,3 +53,9 @@ img {
   height: 300px;
   width: 500px;
 }
+
+.tweet {
+  margin-bottom: 30px;
+  border-color: black;
+  border-width: 1px;
+}

@@ -1,6 +1,9 @@
+
 import './App.css';
+import CloudMap from './CloudMap';
 
 function App() {
+
   return (
     <>
       <header>
@@ -8,33 +11,17 @@ function App() {
           <h1>visualisations using the Twiiter API</h1>
         </section>
       </header>
-
-      <section id="cloud-map">
-        <h2>Cloud Map</h2>
-        <p>Most common words related to BTS in a given month</p>
-        <section id="cloud-queries">
-          <form id="cloud-form">
-              <label for="cloud-keyword"></label>
-              <input type="text" id="cloud-key" name="cloud-key" value="Jungkook"></input>
-          </form>
-          <form id="cloud-form">
-            <label for="cloud-month">Month and Year of Choice:</label>
-            <input type="datetime-local" id="cloud-month-input" name="cloud-month-input"></input>
-            <input type="submit"></input>
-          </form>
-        </section>
-        <img src="imgs/word_cloud.png" alt="word cloud"></img>
-      </section>
+      <CloudMap />
       <section id="trends-graph">
       <h2>Trends Graph</h2>
         <p>Freqency of the word of choice in a given month</p>
         <section id="trend-queries">
           <form id="trend-form">
-            <label for="trend-keyword"></label>
+            <label htmlFor="trend-keyword"></label>
             <input type="text" id="trend-key" name="trend-key" value="Jimin"></input>
           </form>
           <form id="trend-form">
-            <label for="trend-month">Month and Year of Choice:</label>
+            <label htmlFor="trend-month">Month and Year of Choice:</label>
             <input type="datetime-local" id="trend-month-input" name="trend-month-input"></input>
             <input type="submit"></input>
           </form>
@@ -46,11 +33,11 @@ function App() {
         <p>These are the top 10 tweets with the most retweets</p>
         <section id="tweet-queries">
           <form id="tweet-form">
-            <label for="tweet-keyword"></label>
+            <label htmlFor="tweet-keyword"></label>
             <input type="text" id="tweet-key" name="tweet-key" value="J-Hope"></input>
           </form>
           <form id="tweet-form">
-            <label for="tweet-month">Month and Year of Choice:</label>
+            <label htmlFor="tweet-month">Month and Year of Choice:</label>
             <input type="datetime-local" id="tweet-month-input" name="tweet-month-input"></input>
             <input type="submit"></input>
           </form>
