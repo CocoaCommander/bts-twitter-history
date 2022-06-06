@@ -6,7 +6,7 @@ const CloudMap = () => {
     const [time, setTime] = useState("");
   
     const getData = e => {
-        fetch(`http://localhost:3100/tweets?date=${time}&query=${query}`)
+        fetch(`https://bts-twitter-data-server.herokuapp.com/tweets?date=${time}&query=${query}`)
             .then(res => res.json())
             .then(d => setData(d))
             .catch(err => console.log(err));
