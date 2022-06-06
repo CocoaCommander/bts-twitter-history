@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bts-twitter-history/static/css/main.77548687.css",
+    "main.js": "/bts-twitter-history/static/js/main.0ddcdeef.js",
+    "static/js/787.aa1873d0.chunk.js": "/bts-twitter-history/static/js/787.aa1873d0.chunk.js",
+    "static/media/background-pic.jpg": "/bts-twitter-history/static/media/background-pic.7648fe5b5f9264263c16.jpg",
+    "index.html": "/bts-twitter-history/index.html",
+    "main.77548687.css.map": "/bts-twitter-history/static/css/main.77548687.css.map",
+    "main.0ddcdeef.js.map": "/bts-twitter-history/static/js/main.0ddcdeef.js.map",
+    "787.aa1873d0.chunk.js.map": "/bts-twitter-history/static/js/787.aa1873d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77548687.css",
+    "static/js/main.0ddcdeef.js"
+  ]
+}
